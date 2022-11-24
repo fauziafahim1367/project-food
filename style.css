@@ -1,0 +1,314 @@
+/* *{
+    font-family: 'Tiro Devanagari Hindi', serif;
+} */
+html{
+    scroll-behavior: smooth;
+}
+img{
+    max-width:100%;
+    height: 280px;
+}
+.position-custom{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+.organic{
+    font-size: 35px;
+    font-family: 'Noto Sans Mono', monospace;
+    transition: .3s;
+}
+.organic:hover{
+    color: blueviolet;
+}
+.navbar-customize ul{
+    margin-right: 40px;
+}
+.navbar-customize ul li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+.navbar-customize ul li a{
+    display: block;
+    font-size: 20px;
+    transition: .3s;
+    color: rgb(19, 17, 17);
+    border: 0;
+}
+.navbar-customize ul li a:hover{
+    color: red;
+    cursor: pointer;
+   
+}
+.input-customize{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-left: 50px;
+    border-color: white;
+    font-weight: 700;
+    color: black;
+   
+    
+}
+.button-customize{
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    font-weight: 700;
+    border-color: white;
+    /* margin-left: 10px; */
+    color: black;
+    
+}
+/* section */
+
+.banner-section{
+    background: url(./img/istockphoto-3a.jpg) no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 250px 0px;
+}
+
+.banner-content h2{
+    color: white;
+    font-size: 45px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.btn-customs {
+    border-radius: 20px;
+    width: 30%;
+    height: auto;
+    font-weight: 700;
+    text-transform: capitalize;
+    background-color: red;
+}
+
+.text-text img{
+    width: 400px;
+    height: 300px;
+    display: block;
+    padding: 0px 5px;
+    margin: 0px 5px;
+}
+
+/* card section */
+
+.food-hader-content h2{
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.food-hader-content strong{
+    color: red;
+}
+.card-img img{
+    border-radius: 5px;
+    transition: .3s;
+    background-color: red;
+}
+
+.card-img img:hover{
+    transform: translateY(-5px);
+    box-shadow: 2px 2px 8px gray,
+    -2px -2px 8px white;  
+}
+.card-content strong{
+    letter-spacing: 1.1px;
+    cursor: pointer;
+}
+
+/* vabitable-section */
+
+.vagitable-content h2{
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.vagitable-content strong{
+    text-transform: capitalize;
+    color: red;
+}
+
+
+.vagitable-img-content h5{
+    text-transform: capitalize;
+}
+
+/* explore section */
+.explore-content h2{
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.explore-content strong{
+    color: orangered;
+}
+
+
+.explore-middle-content h5{
+    text-transform: capitalize;
+}
+
+.explore-img img{
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.explore-img img:hover{
+    transform: translateY(-10px);
+}
+
+
+/* background section */
+
+.background-imgs{
+   background:url(./img/./woman-eat-burger.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   padding: 220px 0px;
+   width: 100%;
+   height: 120vh;
+   position: relative; 
+}
+
+.background-content h2{
+    font-size: 40px;
+    text-transform: capitalize;
+    font-family: 'fantasy';
+    color: white;
+    top: 15%;
+    cursor: pointer;
+    position: absolute;
+   
+}
+
+.background-content p{
+    font-weight: 700;
+    text-transform: capitalize;
+    color: white;
+    cursor: pointer;  
+}
+
+/* contact-section */
+
+.contact-content h2{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.contact-content strong{
+    font-weight: 700;
+    text-transform: capitalize;
+    color: orangered;
+}
+.contact-details{
+    margin-left: 50px;
+}
+.contact-form{
+    margin-left: 50px;
+}
+.contact-details h6{
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.contact-details p{
+    text-transform: capitalize;
+}
+
+textarea{
+    resize: none;
+}
+
+.form-button button{
+    height: 50px;
+    width: 120px;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 0;
+}
+
+/* footer-section */
+
+.footer-content h2{
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.input-group input{
+    border-color: 2px solid white;
+    border-radius: 3px;
+    color: white;
+}
+
+.submit{
+    border-radius: 3px;
+}
+
+
+.footer-text h5{
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.footer-text ul {
+    list-style: none;
+    padding-left: 0;
+    text-transform: capitalize;
+   
+}
+
+.footer-text ul li{
+    line-height: 2.0rem;
+    font-size: 15px;
+}
+
+.footer-social-icon h5{
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+
+.footer-social-icon ul{
+    padding-left: 0;
+}
+.footer-social-icon ul li{
+    list-style: none;
+    padding: 20px 20px;
+    padding-left: 0;
+}
+.footer-social-icon ul li a{
+    height: 50px;
+    width: 50px;
+    font-size: 40px;
+    color: white;
+    background-color:black;
+    line-height: 50px;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    display: block;
+    transition: .5s;
+}
+.footer-social-icon ul li a:hover{
+    transform: translateY(-17px);
+}
+
+.copy-right p{
+    cursor: pointer;
+    color: rgb(253, 249, 249);
+    transition: .3s;
+}
+
+.copy-right p:hover{
+    color: pink;
+}
